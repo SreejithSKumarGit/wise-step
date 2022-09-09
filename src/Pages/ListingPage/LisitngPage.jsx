@@ -27,6 +27,48 @@ const [data,setData]=useState([]);
                     "price":300
                 },
         ]
+        },
+        {   "id":2,
+            "name":"Outlet 2",
+            "location":"2km away from your location",
+            "vehicles":[
+                {
+                    "id":1,
+                    "vehicle_name":"Activa",
+                    "price":300
+                },
+                {
+                    "id":2,
+                    "vehicle_name":"Activa",
+                    "price":300
+                },
+                {
+                    "id":3,
+                    "vehicle_name":"Activa",
+                    "price":300
+                },
+        ]
+        },
+        {   "id":3,
+            "name":"Outlet 3",
+            "location":"3km away from your location",
+            "vehicles":[
+                {
+                    "id":1,
+                    "vehicle_name":"Activa",
+                    "price":300
+                },
+                {
+                    "id":2,
+                    "vehicle_name":"Activa",
+                    "price":300
+                },
+                {
+                    "id":3,
+                    "vehicle_name":"Activa",
+                    "price":300
+                },
+        ]
         }
     ]
     React.useEffect(()=>
